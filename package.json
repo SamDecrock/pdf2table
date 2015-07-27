@@ -1,0 +1,26 @@
+{
+  "name": "pdf2table",
+  "description": "pdf2table is a node.js library that attempts to extract tables from a pdf",
+  "version": "0.0.1",
+  "author": {
+    "name": "Sam Decrock",
+    "url": "https://github.com/SamDecrock/"
+  },
+  "bugs": {
+    "url": "https://github.com/SamDecrock/pdf2table/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SamDecrock/pdf2table.git"
+  },
+  "main": "./lib/pdf2table",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies": {
+    "pdf2json": "^0.7.1"
+  }
+}

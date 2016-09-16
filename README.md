@@ -15,7 +15,7 @@ You can install __pdf2table__ using the Node Package Manager (npm):
 ## Simple example
 ```js
 
-var pdf2json = require('pdf2json');
+var pdf2table = require('pdf2table');
 var fs = require('fs');
 
 fs.readFile('./test.pdf', function (err, buffer) {

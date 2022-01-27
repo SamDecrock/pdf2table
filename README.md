@@ -29,6 +29,11 @@ fs.readFile('./test.pdf', function (err, buffer) {
 });
 
 ```
+### Getting raw table data
+X-axis data is being stripped in the default mode, but may be necessary to reconstruct the table extracted from the pdf. This can be retrieved by passing 'true' as the raw argument, which is false by default.
+```
+pdf2table.parse(buffer, function, raw = false)
+```
 
 ## Note
 Note that this is a simplistic implementation to extract tables. If your pdf contains other stuff that's not a table, pdf2table will still attempt to shape this data into a row. Feel free to improve and send pull requests.
